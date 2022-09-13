@@ -34,7 +34,7 @@
 							<header>
 								<h1>Hi. I'm <strong>Austin Miles</strong>.</h1>
 							</header>
-							<p>I'm an undergraduate student studying computer science at Georgia Tech in Atlanta. Check out this site and my projects to learn more about me and my interests!</p>
+							<p>I'm a graduate student studying computer science at Georgia Tech in Atlanta, with a concentration in Computer Graphics. Check out this site and my projects to learn more about me and my interests!</p>
 							<a href="#about" class="button large scrolly">Learn more about me</a>
 						</div>
 					</div>
@@ -86,8 +86,9 @@
 					<h2>Intro</h2>
 				</header>
 				<p>I'm a Computer Science student at Georgia Tech, where I specialize in Graphics and Modeling/Simulation.
-				Although I currently live in Atlanta, I come from a log cabin in a small town known as Ball Ground, GA. Outside
-				of school, I enjoy lifting weights, playing guitar, throwing frisbee, and just hanging out.</p>
+				Although I currently live in Atlanta, I grew up in a log cabin in a small town called Ball Ground, GA. Outside
+				of school, I play guitar in a local blues rock band, train and play with my dog Woody, cook, and frequently
+					go rollerblading.</p>
 				<div class="row">
 					<div class="col-6 col-12-medium col-12-small">
 						<img class="intro-images" src="images/beach-friends.jpg" alt="">
@@ -101,6 +102,15 @@
 					<div class="col-6 col-12-medium col-12-small">
 						<img class="intro-images" src="images/nashville.jpg" alt="">
 					</div>
+					<div class="col-6 col-12-medium col-12-small">
+						<img class="intro-images" src="images/doggie2.jpg" alt="">
+					</div>
+					<div class="col-6 col-12-medium col-12-small">
+						<img class="intro-images" src="images/grad.JPG" alt="">
+					</div>
+					<div class="col-12 col-12-medium col-12-small">
+						<img class="intro-images" src="images/guitar.jpg" alt="">
+					</div>
 				</div>
 			</div>
 		</article>
@@ -109,21 +119,47 @@
 			<div class="container">
 				<header>
 					<h2>Professional Interests</h2>
-					<p class="leftalign">In my time at Georgia Tech, I've become deeply invested in one of my concentrations: computer graphics and media. I've also developed a passion for developing 
+					<br>
+					<p class="leftalign">In my time at Georgia Tech, I've become deeply invested in computer graphics. I've also developed a passion for developing
 						personal projects and working on large scale systems. Outside of computer science, I've found it extremely rewarding to help others through mentoring hackathons 
-						and serving as a Teaching Assistant to an intro Computer Science classes.
+						and serving as a Teaching Assistant to a graduate level Computer Science course in Computer Animation.
 					</p>
 					<br>
 					<p class="leftalign"> Here are some of the topics that interest me: </p>
 						<ul class="leftalign">
-							<li>2D/3D Transformation</li>
-							<li>Ray Tracing</li>
-							<li>Character Animation</li>
+							<li>Procedural Content Generation</li>
+							<li>HD Mapping for Autonomous Vehicles</li>
+							<li>Game Engine Integration</li>
 							<li>GPU Programming</li>
-							<li>Shadows</li>
+							<li>Full Stack Web Development</li>
 							<li>... and many more!</li>
 						</ul>
 				</header>
+			</div>
+
+			<div class="container smaller-container">
+				<h2>Professional Experience</h2>
+				<br><br>
+				<div class="experience row">
+					<h6 class="centered bottom-margin">Outside of school I have had the pleasure of working and gaining experience at two fantastic companies: NVIDIA and MathWorks. Here's
+						what I did there.
+					</h6>
+					<div class="col-6 col-12-medium col-12-small">
+						<img class="professional-images" src="images/nvidia-logo1.png" alt="">
+						<br><br>
+						<h3><strong>Software Engineering Intern - Autonomous Vehicles</strong></h3>
+						<p>I interned twice at NVIDIA on the Map Tools team. During my first internship, I worked on a 3D map visualization
+						and labeling system for HD maps. This previous summer I developed a cloud image tile generator for use in
+						web mercator mapping tools</p>
+					</div>
+					<div class="col-6 col-12-medium col-12-small">
+						<img class="professional-images" src="images/logo_mathworks-1024x512.png" alt="">
+						<br><br>
+						<h3><strong>Software Engineering Intern - Mapping and RF Propagation</strong></h3>
+						<p>During my time at MathWorks I worked on prototypes for 3D model streaming in tiled formats in
+						both browser and game engine environments</p>
+					</div>
+				</div>
 			</div>
 		</article>
 
@@ -135,10 +171,9 @@
 				<header>
 					<h2>Personal Interests</h2>
 					<p class="leftalign">Though academics and professional development are extremely important to me, I enjoy spending time outside of school and work focusing on my hobbies. I 
-						have a vested interest in music, and enjoy playing electric guitar in a band with two of my closest friends. I also prioritize fitness and enjoy working out and staying active, 
-						even if it's just to go throw a frisbee or play basketball with some friends. I also enjoy playing video games and keeping up to date with all the amazing things happening in the 
-						video games and graphics industries. Reading fantasy novels is another hobby of mine. Currently, I'm 5 books deep into the Wheel of Time. Outside of all this, I enjoy 
-						exploring Atlanta with my friends. 
+						have a vested interest in music, and enjoy playing electric guitar in my band. I also prioritize fitness and enjoy working out and staying active,
+						even if it's just to go throw a frisbee with friends or go roller blading on the Atlanta Beltline. I also enjoy playing video games and keeping up to date with all the amazing things happening in the
+						video games and graphics industries. Reading fantasy novels is another hobby of mine. I just wrapped up the epic 14-book Wheel of Time saga.
 					</p>
 					<br>
 				</header>
@@ -147,11 +182,29 @@
 
 		<!-- Portfolio -->
 		<article id="work" class="wrapper style3">
-			<div class="container">
+			<header>
+				<h2>Here’s some stuff I made recently.</h2>
+				<p>Some of the projects have publicly available repositories or websites. Click on the gif to see the project if it's available.</p>
+			</header>
+			<div class="container experience bottom-margin">
 				<header>
-					<h2>Here’s some stuff I made recently.</h2>
-					<p>Some of the projects have publicly available repositories or websites. Click on the gif to see the project if it's available.</p>
+					<h3>Master's Project: Infinite Procedural Content Generation Dev Tool</h3>
 				</header>
+				<div class="row">
+					<div class="col-12">
+						<p class="centered bottom-margin">Developer tool for creating procedurally generated
+							terrains, fully integrated with the Unity Editor. Users define graphs with logic nodes
+							for modifying the world. Examples include: introducing perlin noise octaves, selecting
+							attributes based on biomes, normalizing terrain values, and applying erosion.</p>
+
+						<p>Out of a template terrain, as shown in the picture, users can generate seamless tiles
+						endlessly out of the template tile during runtime</p>
+						<img class="intro-images" src="images/masters-project.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+
 				<div class="row">
 					<div class="col-4 col-6-medium col-12-small">
 						<article class="box style2">
@@ -196,6 +249,7 @@
 						</article>
 					</div> -->
 				</div>
+			</div>
 			</div>
 		</article>
 

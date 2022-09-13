@@ -1621,11 +1621,31 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	.experience {
+		background-color: white;
+		border-radius: 3%;
+		padding: 5%;
+	}
+
+	.smaller-container {
+
+	}
+
+	.bottom-margin {
+		margin-bottom: 5%;
+	}
+
 /* Image */
 
 	.intro-images {
 		max-height: 100%;
 		max-width: 100%;
+		border-radius: 3%;
+	}
+
+	.professional-images {
+		align-content: center;
+		max-height: 30%;
 		border-radius: 3%;
 	}
 
